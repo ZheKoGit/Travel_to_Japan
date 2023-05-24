@@ -1,0 +1,29 @@
+html {
+	font-size: 10px;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-style: normal;
+	font-family: $font-main;
+	@include font();
+	color: $color-text;
+}
+
+.container {
+	max-width: $width-content;
+	margin: 0 auto;
+}
+
+.wrapper_theme_dark {
+	color: $color-text-add;
+}
+
+a {
+	color: inherit;
+}
+
+.button {
+	background-color: $color-button;
+	border: none;
+}

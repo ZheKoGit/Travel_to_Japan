@@ -1,0 +1,29 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 56px 0 0;
+}
+
+.header__wrapper {
+	@include flex();
+	max-width: $width-content-add;
+}
+
+.nav__list {
+	@include flex();
+	flex-wrap: wrap;
+
+	& li {
+		margin-right: 82px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.nav__link {
+	font-size: 1.8rem;
+}
